@@ -36,7 +36,7 @@ To install IIS with CGI and Common HTTP Features, along with the IIS Management 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RUYUtCa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 To install the Web Platform Installer (Web PI) on Windows, download and run the installer from Microsoft's website. Follow the setup instructions, including accepting license terms. Optionally select additional components. Once installed, launch Web PI from the Start menu or desktop shortcut to browse and install web server components and applications.
