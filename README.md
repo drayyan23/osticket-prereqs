@@ -20,13 +20,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+<h2>List of Prerequisites/Steps</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Install / Enable IIS in Windows WITH
+CGI and Common HTTP Features and IIS Management Console
+- Install Web Platform Installer
+- Install MySQL (set up Usernames and Passwords), Open IIS as an Admin, Register PHP from within IIS,
+  and Reload IIS (Open IIS, Stop and Start the server)
+- Install C++ Redistributable
+- Configure Permissons and Install OsTicket
 
 <h2>Installation Steps</h2>
 
