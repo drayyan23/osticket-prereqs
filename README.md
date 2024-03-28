@@ -31,7 +31,7 @@ CGI and Common HTTP Features and IIS Management Console
 ![image](https://github.com/drayyan23/osticket-prereqs/assets/165277054/785c7284-8fd1-4db3-b454-8464d804c029)
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To install IIS with CGI and Common HTTP Features, along with the IIS Management Console on Windows, open the Control Panel and navigate to Programs and Features. Click on "Turn Windows Features On or Off" and check the boxes for "Internet Information Services," "CGI," "Common HTTP Features," and "IIS Management Console." Then, click OK to install. After installation, verify by searching for "Internet Information Services (IIS) Manager" in the Start menu.
 </p>
 <br />
 
@@ -39,7 +39,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To install the Web Platform Installer (Web PI) on Windows, download and run the installer from Microsoft's website. Follow the setup instructions, including accepting license terms. Optionally select additional components. Once installed, launch Web PI from the Start menu or desktop shortcut to browse and install web server components and applications.
 </p>
 <br />
 
@@ -47,6 +47,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Install MySQL and set up usernames and passwords via the setup wizard.
+Open IIS as an administrator by selecting "Run as administrator" from the Start menu.
+Register PHP from within IIS by navigating to the server node, accessing "Handler Mappings," and adding a module mapping for PHP.
+Reload IIS by stopping and then starting the server in the IIS Manager.
+</p>
+<br />
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+First, download and install the C++ Redistributable package from the official Microsoft website or through the Microsoft Visual C++ Redistributable download page. Next, configure permissions for the installation directory and relevant system resources. Then, download and install OsTicket from its official website or repository. During the installation process of OsTicket, provide necessary configuration details such as database connection information and administrative credentials. Finally, verify OsTicket's functionality by accessing it through a web browser and perform any additional configuration or customization as needed.
 </p>
 <br />
